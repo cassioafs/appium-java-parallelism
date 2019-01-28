@@ -16,10 +16,10 @@ The project is divided into _Packages_ and _Files_, such as:
 Firstly, we have to set up the selenium grid in order to run the test suite in parallel. Let's do the following steps:
 
 ##### Create hub:
-`java -jar /Users/.../selenium-server-standalone-3.141.59.jar -role hub`
+`java -jar selenium-server-standalone-3.14.0.jar -role hub`
 
 ##### Create FIRST node:
-`appium --address 127.0.0.1 -bp 5523 --port 4754 --nodeconfig /Users/.../android1-cap.json` 
+`appium --address 127.0.0.1 -bp 5523 --port 4754 --nodeconfig caps/android1-cap.json` 
 
 - android1-cap.json
 
