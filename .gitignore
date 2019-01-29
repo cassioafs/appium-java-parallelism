@@ -3,6 +3,4 @@
 .settings/
 target/
 .classpath
-/apps
-.classpath
 .settings/org.eclipse.jdt.core.prefs
