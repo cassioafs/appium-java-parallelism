@@ -9,7 +9,6 @@
 		<parameter name="systemPort" value="8200" />
 		<classes>
 			<class name="com.mobile.test.StationTest" />
-			<class name="com.mobile.test.BookingTest" />
 		</classes>
 	</test>
 	<test name="Android native app test on Android P2">
@@ -19,7 +18,6 @@
 		<parameter name="systemPort" value="8202" />
 		<classes>
 			<class name="com.mobile.test.BookingTest" />
-			<class name="com.mobile.test.StationTest" />
 		</classes>
 	</test>
 </suite>
